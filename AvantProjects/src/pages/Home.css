@@ -1,0 +1,37 @@
+.slogan-container {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.sloganBox {
+    width: 250px;
+    padding: 20px 20px 60px 20px;
+    background-color: gray;
+    position: relative;
+}
+
+.slogan1 {
+    color: #591C68;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.slogan2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    position: absolute;
+    right: 50px;
+    bottom: -20px;
+    color: white;
+    background-color: #591C68;
+}
+
