@@ -1,0 +1,21 @@
+
+.pageHeading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pageHeading {
+    position: relative;
+}
+
+.pageHeading h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    color: #E4E5E7;
+}
+
+.pageHeading p {
+    position: absolute;
+    top: 50px;
+    font-weight: 600;
+}

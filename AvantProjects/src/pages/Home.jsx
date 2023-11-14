@@ -3,6 +3,7 @@ import './Home.css';
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner from '../Components/Banner';
+import PageHeading from '../Components/PageHeading';
 
 function Home() {
   
@@ -25,6 +26,9 @@ function Home() {
             <button className='contact-button'>Contact Us</button>
           </a>
         </div>
+      </div>
+      <div className='heading'>
+        <PageHeading />
       </div>
     </div>
     </>
