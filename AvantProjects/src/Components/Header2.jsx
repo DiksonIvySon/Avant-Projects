@@ -34,9 +34,9 @@ function Header2() {
                 <li><a href="">Contact</a></li>
             </ul>
             <div className='get_a_quote-button'>
-                    <a href="">
-                        <button>Get A Quote</button>
-                    </a>
+                <a href="">
+                    <button>Get A Quote</button>
+                </a>
             </div>
         </div>
         <div id="nav-icon" className={toggleHam_icon} onClick={HandleToggleHam}>
