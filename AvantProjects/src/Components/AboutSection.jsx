@@ -20,7 +20,7 @@ function AboutSection() {
                     We strongly believe in building relationships, which last.
                 </p>
                 <a href="">
-                    <button>Read More About Us</button>
+                    <button className='button2'>Read More About Us</button>
                 </a>
             </div>
         </div>

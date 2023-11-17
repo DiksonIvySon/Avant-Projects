@@ -24,14 +24,16 @@ function Home() {
             via dependable response times, evident dedication, and genuine interest in the construction industry.
           </p>
           <a href="">
-            <button className='contact-button'>Contact Us</button>
+            <button className='contact-button button2'>Contact Us</button>
           </a>
         </div>
       </div>
       <div className='heading'>
         <PageHeading />
       </div>
-      <AboutSection />
+      <div className='homeBody'>
+        <AboutSection />
+      </div>
     </div>
     </>
   )

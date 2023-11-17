@@ -59,16 +59,6 @@
     color: #591C68;
 }
 
-.get_a_quote-button button {
-    width: 150px;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px;
-    color: #591C68;
-    border: 3px solid #591C68;
-    background-color: white;
-}
-
 /* Hide the hamburger icon on large screens */
 #nav-icon {
     display: none;

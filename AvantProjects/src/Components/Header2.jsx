@@ -35,7 +35,7 @@ function Header2() {
             </ul>
             <div className='get_a_quote-button'>
                 <a href="">
-                    <button>Get A Quote</button>
+                    <button className='button1'>Get A Quote</button>
                 </a>
             </div>
         </div>
