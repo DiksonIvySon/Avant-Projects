@@ -4,6 +4,7 @@ import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner from '../Components/Banner';
 import PageHeading from '../Components/PageHeading';
+import AboutSection from '../Components/AboutSection';
 
 function Home() {
   
@@ -30,6 +31,7 @@ function Home() {
       <div className='heading'>
         <PageHeading />
       </div>
+      <AboutSection />
     </div>
     </>
   )
