@@ -5,6 +5,7 @@ import Header2 from '../Components/Header2';
 import Banner from '../Components/Banner';
 import PageHeading from '../Components/PageHeading';
 import AboutSection from '../Components/AboutSection';
+import ServicesSection from '../Components/ServicesSection';
 
 function Home() {
   
@@ -28,11 +29,12 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className='heading'>
+      <div className='home-heading'>
         <PageHeading />
       </div>
       <div className='homeBody'>
         <AboutSection />
+        <ServicesSection />
       </div>
     </div>
     </>

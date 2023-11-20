@@ -1,0 +1,64 @@
+
+
+.heading {
+    margin: 30px;
+}
+
+.services-info button {
+    margin: 30px 0px;
+}
+
+.services-section {
+    background:  gray
+     ;
+}
+
+.services-section > div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    padding: 40px 0px;
+}
+
+.services-sectors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services-sectors > div {
+    margin: 30px;
+    padding: 20px;
+    background-color: #D9D9D9;
+
+}
+
+.services-sectors h3 {
+    margin: 10px 0px;
+}
+
+.sector-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.services-sectors .industrial-construction {
+    background-color: #591C68;
+    color: white;
+    position: relative;
+}
+
+.services-sectors .industrial-construction h3 {
+    text-decoration: underline;
+}
+
+.services-sectors .industrial-construction .specialization {
+    background-color: white;
+    width: 120px;
+    padding: 5px;
+    border-radius: 0px 0px 40px 0px;
+    position: absolute;
+    top: 20px;
+    color: black;
+}
+

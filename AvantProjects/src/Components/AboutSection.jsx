@@ -5,7 +5,7 @@ import './AboutSection.css';
 
 function AboutSection() {
   return (
-    <div className='aboutSection'>
+    <div className='aboutSection section'>
         <div className='sectionHeading'>
             <h1>About Us</h1>
             <p>Avant Projects </p>
