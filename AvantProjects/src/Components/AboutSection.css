@@ -1,0 +1,75 @@
+
+.aboutSection {
+    margin-inline: 60px;
+}
+
+.sectionHeading h1{
+    text-align: center;
+}
+
+.sectionHeading p{
+    text-align: center;
+}
+
+.aboutSection > div {
+    margin: 70px 0px 60px 0px;
+}
+
+.about-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about-stats > div {
+    flex: 1;
+    border: 3px solid #591C68;
+    color: #591C68;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.about {
+    display: flex;
+}
+
+.about > div {
+    flex: 1;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-image .image {
+    width: 500px;
+}
+
+.img-background-shadow {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-main-photo {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-info h3 {
+    margin: -20px 0px 20px 0px;
+    color: #591C68;
+}
+
+.about-info p {
+    max-width: 600px;
+}
+
+.about-info button {
+    margin: 30px 0px;
+}

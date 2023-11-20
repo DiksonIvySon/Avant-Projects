@@ -1,19 +1,31 @@
 import React from 'react';
-
+import grayBackground from '../images/grayBackground.jpg';
+import working from '../images/working.jpeg'
 import './AboutSection.css';
 
 function AboutSection() {
   return (
     <div className='aboutSection'>
-        <div>
+        <div className='sectionHeading'>
+            <h1>About Us</h1>
+            <p>Avant Projects </p>
+        </div>
+        <div className='about'>
             <div className='about-image'>
-                <img src="" alt="about image" />
+                <div className='image'>
+                    <img className='img-background-shadow' src={grayBackground} alt="gray background image"></img>
+                </div>
+                <div className='image'>
+                    <img className='about-main-photo' src={working} alt="about image" />
+                </div>
             </div>
             <div className='about-info'>
                 <h3>Avant Projects Pty Ltd</h3>
                 <p>
                     Our team of qualified and experienced professionals can be trusted, 
-                    with all your Commercial, Industrial, and Residential projects. 
+                    with all your Commercial, Industrial, and Residential projects.
+                    <br />
+                    <br />
                     When you choose Avant Projects, you are getting experienced, qualified, 
                     and innovative expertise. We have the knowledge and creativity, to turn 
                     your ideas into a reality. Your satisfaction is our number one priority. 
