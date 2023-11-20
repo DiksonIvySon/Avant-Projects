@@ -6,6 +6,7 @@ import Banner from '../Components/Banner';
 import PageHeading from '../Components/PageHeading';
 import AboutSection from '../Components/AboutSection';
 import ServicesSection from '../Components/ServicesSection';
+import CallToAction from '../Components/CallToAction';
 
 function Home() {
   
@@ -35,6 +36,7 @@ function Home() {
       <div className='homeBody'>
         <AboutSection />
         <ServicesSection />
+        <CallToAction />
       </div>
     </div>
     </>
