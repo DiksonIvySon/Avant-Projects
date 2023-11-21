@@ -9,6 +9,7 @@ import ServicesSection from '../Components/ServicesSection';
 import CallToAction from '../Components/CallToAction';
 import ProjectsSection from '../Components/ProjectsSection';
 import TestimonialsSection from '../Components/TestimonialsSection';
+import QuestionSection from '../Components/QuestionSection';
 
 function Home() {
   
@@ -41,6 +42,7 @@ function Home() {
         <CallToAction />
         <ProjectsSection />
         <TestimonialsSection />
+        <QuestionSection />
       </div>
     </div>
     </>

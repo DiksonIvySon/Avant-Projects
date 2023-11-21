@@ -1,0 +1,66 @@
+
+.questionSection {
+    padding: 50px 0px;
+}
+
+.questionSection > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.questions-heading {
+    margin-bottom: 30px;
+} 
+
+.contact p {
+    margin: 30px 0px 20px 0px;
+}
+
+.image {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    z-index: -1;
+    width: 200px;
+}
+
+/* Styling the Accordion */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+
+.panel-open {
+    display: block;
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+}
