@@ -1,0 +1,82 @@
+.testimonials-heading {
+    color: white;
+    margin: 40px;
+}
+
+.testimonial-section {
+    background-color: gray;
+    padding: 20px 0px;
+}
+
+.testimonial {
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.testimonial hr {
+    margin-bottom: 10px;
+}
+
+.testimonial button {
+    margin: 10px 0px;
+}
+
+.testimonial a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-header .company-logo {
+    background-color: white;
+}
+
+.testimonial-header .company-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.companies-slide {
+    margin: 40px 0px;
+}
+
+.logos {
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    margin: 20px 0px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.testimonial-paragraph {
+    text-align: justify;
+}
+
+.testimonial-paragraph span {
+    font-size: 25px;
+    color: #591C68;
+}

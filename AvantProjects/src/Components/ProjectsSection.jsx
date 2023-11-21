@@ -33,81 +33,81 @@ return (
             </div>
             <div className='projects-container'>
                 <div className='project'>
-                    <img src={Picture1} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Polyurethane Floor Coating 
+                    <img src={Picture1} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Polyurethane Floor Coating 
                                          <hr />
                                          at<b> TATA - ISANDO</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture6} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Roofing
+                    <img src={Picture6} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Roofing
                                          <hr />
                                          at<b> mELCO - GERMISTON</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture11} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Concrete
+                    <img src={Picture11} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Concrete
                                          <hr />
                                          at<b> Distell Bethal</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture23} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Brick Paving
+                    <img src={Picture23} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Brick Paving
                                          <hr />
                                          at<b> Marley</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture18} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Perimeter Wall Build
+                    <img src={Picture18} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Perimeter Wall Build
                                          <hr />
                                          at<b> Tiger Brands</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture30} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Tar Work
+                    <img src={Picture30} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Tar Work
                                          <hr />
                                          at<b> Tiger Brands</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture36} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Building Renovation
+                    <img src={Picture36} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Building Renovation
                                          <hr />
                                          at<b> GEA (now Kelvion)</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture60} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Glass Enclosure Offices
+                    <img src={Picture60} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Glass Enclosure Offices
                                          <hr />
                                          at<b> Natures Garden</b>
                         </div>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Picture54} alt="Project Picture" class="image" />
-                    <div class="overlay-container">
-                        <div class="text">Demolishion 
+                    <img src={Picture54} alt="Project Picture" className="image" />
+                    <div className="overlay-container">
+                        <div className="text">Demolishion 
                                          <hr />
                                          at<b> Seefam</b>
                         </div>
