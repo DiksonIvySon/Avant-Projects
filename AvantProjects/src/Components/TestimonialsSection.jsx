@@ -85,6 +85,7 @@ function TestimonialsSection() {
             </div>
         </div>
         <div className='companies-slide'>
+            <h2>Companies that approve our work and material</h2>
             <hr />
             <div className='logos'>
                 <div className='logo'>

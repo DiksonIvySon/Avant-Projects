@@ -52,6 +52,11 @@
     margin: 40px 0px;
 }
 
+.companies-slide h2 {
+    color: white;
+    text-align: center;
+}
+
 .logos {
     display: flex;
     overflow: hidden;
