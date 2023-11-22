@@ -81,9 +81,9 @@ function QuestionSection() {
                     </a>
                 </div>
             </div>
-            <div className='image'>
+            <div className='faq-image'>
                 <img src={tra_person} alt="person image" />
-                <img src={logo} alt="Avant Projects logo" className='logo'/>
+                <img src={logo} alt="Avant Projects logo" className='faq-logo'/>
             </div>
         </div>
     </div>
