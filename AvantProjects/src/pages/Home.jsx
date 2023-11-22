@@ -10,6 +10,7 @@ import CallToAction from '../Components/CallToAction';
 import ProjectsSection from '../Components/ProjectsSection';
 import TestimonialsSection from '../Components/TestimonialsSection';
 import QuestionSection from '../Components/QuestionSection';
+import FooterSection from '../Components/FooterSection';
 
 function Home() {
   
@@ -43,6 +44,7 @@ function Home() {
         <ProjectsSection />
         <TestimonialsSection />
         <QuestionSection />
+        <FooterSection />
       </div>
     </div>
     </>
