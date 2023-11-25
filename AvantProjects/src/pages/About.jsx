@@ -7,6 +7,7 @@ import Banner from '../Components/Banner';
 import PageHeading from '../Components/PageHeading';
 import CallToAction from '../Components/CallToAction';
 import FooterSection from '../Components/FooterSection';
+import TeamMember from '../Components/TeamMember';
 
 import hard_hat from '../images/hard_hat.png';
 
@@ -50,6 +51,11 @@ function About() {
                 </div>
                 <div className='hard-hat-image'>
                     <img src={hard_hat} alt="hard hat image" />
+                </div>
+            </div>
+            <div className='about-page-team-members'>
+                <div>
+                    <TeamMember />
                 </div>
             </div>
         </div>

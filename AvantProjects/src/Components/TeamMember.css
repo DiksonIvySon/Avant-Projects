@@ -1,0 +1,46 @@
+
+
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 250px;
+    margin: 20px;
+}
+
+.team-member-image {
+    background-color: gray;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-member-image img {
+    height: 100%;
+    width: auto;
+}
+
+/* Some left and right padding inside the container */
+.team-member .container {
+    padding: 0 16px;
+    background-color: #D9D9D9;
+}
+
+.team-member .container h2 {
+    text-align: center;
+}
+
+.team-member .container .title {
+    text-align: center;
+}
+
+.team-member .container p {
+    margin-bottom: 10px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
