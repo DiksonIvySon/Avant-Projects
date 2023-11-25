@@ -1,0 +1,38 @@
+
+
+
+.about-page-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-page-paragraph {
+    margin-bottom: 40px;
+}
+
+.about-page-pillars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.foundational-pillars h2 {
+    color: #591C68;
+    margin-bottom: 15px;
+}
+
+.foundational-pillars li {
+    margin-bottom: 15px;
+}
+
+.hard-hat-image {
+    max-width: 600px;
+    max-height: 360px;
+}
+
+.hard-hat-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
