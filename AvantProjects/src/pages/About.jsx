@@ -56,6 +56,13 @@ function About() {
             <div className='about-page-team-members'>
                 <div>
                     <TeamMember />
+                    <TeamMember />
+                    <TeamMember />
+                    <TeamMember />
+                    <TeamMember />
+                    <TeamMember />
+                    <TeamMember />
+                    <TeamMember />
                 </div>
             </div>
         </div>
