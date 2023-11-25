@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import './Header2.css';
-import logo from '../images/logo.jpeg'
+import logo from '../images/logo.jpeg' 
 
 function Header2() {
   const [toggleHam_icon, setToggleHam_icon] = useState("close");
@@ -27,12 +28,12 @@ function Header2() {
         </div>
         <div id="main-nav" className={verticalMenu} >
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="">Services</Link></li>
+                <li><Link to="">Projects</Link></li>
+                <li><Link to="">Contact</Link></li>
+          </ul>
             <div className='get_a_quote-button'>
                 <a href="">
                     <button className='button1'>Get A Quote</button>
