@@ -10,6 +10,8 @@ import FooterSection from '../Components/FooterSection';
 import TeamMember from '../Components/TeamMember';
 
 import hard_hat from '../images/hard_hat.png';
+import grayBackground from '../images/grayBackground.jpg';
+import working from '../images/working.jpeg';
 
 function About() {
   return (
@@ -53,6 +55,10 @@ function About() {
                     <img src={hard_hat} alt="hard hat image" />
                 </div>
             </div>
+            <div className='sectionHeading heading'>
+                <h1>Meet The Team</h1>
+                <p>Avant Projects </p>
+            </div>
             <div className='about-page-team-members'>
                 <div>
                     <TeamMember />
@@ -67,6 +73,43 @@ function About() {
             </div>
         </div>
         <CallToAction />
+        <div className='section'>
+            <div className='about-page-choose'>
+                <div className='about-page-choose-images'>
+                    <div className='about-page-choose-background'>
+                        <img src={grayBackground} alt="gray background image"></img>
+                    </div>
+                    <div className='about-page-main-photo'>
+                        <img src={working} alt="about image" />
+                    </div>
+                </div>
+                <div className='about-page-info'>
+                    <h2>Choose Avant Projects For:</h2>
+                    <ol>
+                        <li>
+                            <b>High-quality Workmanship:</b> The members of our 
+                            team are proficient experts committed to providing 
+                            each project with work of an outstanding quality.
+                        </li>
+                        <li>
+                            <b>Timely Completion:</b> We recognize the value of 
+                            completing tasks by the deadline. To guarantee that 
+                            your job is finished on schedule, we work promptly.
+                        </li>
+                        <li>
+                            <b>Attention to Detail:</b> We take great care to 
+                            notice even the smallest details, so that your job 
+                            is completed perfectly.
+                        </li>
+                        <li>
+                            <b>Customer Satisfaction:</b> Our priority is your 
+                            satisfaction. We work closely with our clients, 
+                            keeping them informed throughout the construction process.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
         <FooterSection />
     </div>
   )
