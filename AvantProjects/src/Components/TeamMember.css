@@ -1,5 +1,7 @@
 
-
+.team-member {
+    flex: 1;
+}
 
 /* Add some shadows to create a card effect */
 .card {
