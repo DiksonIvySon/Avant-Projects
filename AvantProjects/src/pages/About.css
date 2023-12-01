@@ -52,25 +52,27 @@
     gap: 90px;
 }
 
-.about-page-choose-images {
+.about-page-image {
     position: relative;
 }
 
-.about-page-choose-images div {
-    width: 100%;
+.about-page-image .image {
+    width: 500px;
+}
+
+.about-page-image .img-background-shadow {
+    width: 500px;
     height: 300px;
+    background-image: linear-gradient(45deg, rgb(156, 156, 156), rgb(163, 161, 161),rgb(197, 195, 195), rgb(165, 164, 164));
 }
 
-.about-page-choose-images img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.about-page-choose-images .about-page-main-photo {
+.about-page-image .about-main-photo {
     position: absolute;
     top: -20px;
     left: 20px;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .about-page-info h2 {

@@ -75,12 +75,11 @@ function About() {
         <CallToAction />
         <div className='section'>
             <div className='about-page-choose'>
-                <div className='about-page-choose-images'>
-                    <div className='about-page-choose-background'>
-                        <img src={grayBackground} alt="gray background image"></img>
+                <div className='about-page-image'>
+                    <div className='image img-background-shadow'>  
                     </div>
-                    <div className='about-page-main-photo'>
-                        <img src={working} alt="about image" />
+                    <div className='image'>
+                        <img className='about-main-photo' src={working} alt="about image" />
                     </div>
                 </div>
                 <div className='about-page-info'>
