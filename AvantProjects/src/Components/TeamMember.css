@@ -23,31 +23,6 @@
     width: auto;
 }
 
-/* overlay*/
-.team-member-image-overlay-hide {
-    display: none;
-    transition: all 0.4s ease-in-out;
-}
-
-.team-member-image-overlay {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-}
-
-.team-member-overlay-text {
-    color: white;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-}
-
 /* Some left and right padding inside the container */
 .team-member .container {
     padding: 0 16px;
