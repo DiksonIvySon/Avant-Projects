@@ -32,7 +32,7 @@ function Header2() {
                 <li><Link to="about">About</Link></li>
                 <li><Link to="">Services</Link></li>
                 <li><Link to="">Projects</Link></li>
-                <li><Link to="">Contact</Link></li>
+                <li><Link to="contact">Contact</Link></li>
           </ul>
             <div className='get_a_quote-button'>
                 <a href="">
