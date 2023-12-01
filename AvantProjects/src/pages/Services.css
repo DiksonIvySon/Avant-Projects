@@ -1,0 +1,71 @@
+
+
+
+
+/* styling the industrial section */
+.industrial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 120px 0px ;
+}
+
+.industrial-section .industrial-info {
+    max-width: 50%;
+}
+
+.industrial-section .industrial-info h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.industrial-section .industrial-info .industrial-specialists {
+    color: #591C68;
+    font-weight: 900;
+}
+
+.industrial-section .industrial-info h3 {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.industrial-section .industrial-info h2 span{
+    color: #591C68;
+    font-weight: 900;
+}
+
+.industrial-section .industrial-info p {
+    margin-top: 50px;
+}
+
+.industrial-section .industrial-info button {
+    margin: 20px 0px;
+}
+
+.industrial-section .industrial-images {
+    max-width: 50%;
+    position: relative;
+}
+
+.industrial-section .industrial-images .industrial-image1{
+    max-width: 60%;
+    height: 300px;
+    position: absolute;
+    bottom: -80px;
+    right: 30px;
+    border: 10px solid white;
+}
+
+.industrial-section .industrial-images .industrial-image2{
+    max-width: 80%;
+    height: 500px;
+}
+
+.industrial-section .industrial-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
