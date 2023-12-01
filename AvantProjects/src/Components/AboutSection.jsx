@@ -12,8 +12,7 @@ function AboutSection() {
         </div>
         <div className='about'>
             <div className='about-image'>
-                <div className='image'>
-                    <img className='img-background-shadow' src={grayBackground} alt="gray background image"></img>
+                <div className='image img-background-shadow'>  
                 </div>
                 <div className='image'>
                     <img className='about-main-photo' src={working} alt="about image" />

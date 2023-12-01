@@ -3,7 +3,7 @@
     max-width: 100vw;
     height: 40px;
     margin: 0;
-    background-color: #8F9092;
+    background-image: linear-gradient(45deg, rgb(156, 156, 156), rgb(163, 161, 161),rgb(197, 195, 195), rgb(165, 164, 164));
 }
 
 .operating-times {
