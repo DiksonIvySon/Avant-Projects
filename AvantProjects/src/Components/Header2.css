@@ -41,17 +41,24 @@
     gap: 30px;
 }
 
+#main-nav ul li {
+    width: 60px;
+}
+
 /* Style the links inside the main navigation div */
 #main-nav ul a {
     text-decoration: none;
     font-weight: 700;
-    color: #8F9092;
+    color: #8a8a8b;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
 }
 
 /* Change the color of links on hover */
 #main-nav ul a:hover {
     cursor: pointer;
     color: #591C68;
+    background-color: #cfcfd1;
 }
 
 /* Add an active class to highlight the current page */
