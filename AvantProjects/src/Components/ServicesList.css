@@ -16,6 +16,14 @@
     transition:all 0.4s ease-in-out;
 }
 
+.active-content {
+    background-color: #ccc;
+    color: #591C68;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+
 .tabContainer .Service-classification:hover {
     background-color: #ccc;
     color: #591C68;
