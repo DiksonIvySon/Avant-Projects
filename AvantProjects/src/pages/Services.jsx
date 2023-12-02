@@ -5,7 +5,7 @@ import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner from '../Components/Banner';
 import PageHeading from '../Components/PageHeading';
-import ServicesSection from '../Components/ServicesSection';
+import ServicesList from '../Components/ServicesList';
 import CallToAction from '../Components/CallToAction';
 import FooterSection from '../Components/FooterSection';
 
@@ -80,7 +80,7 @@ function Services() {
             </div>
         </div>
         <div className='servicesBody'> 
-        <ServicesSection />
+        <ServicesList />
         <CallToAction />
         <FooterSection />
         </div>
