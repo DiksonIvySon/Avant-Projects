@@ -95,3 +95,9 @@
     background-color: black;
     border: none;
 }
+
+.footer-long-line {
+    height: 3px;
+    background-color: black;
+    border: 0;
+}

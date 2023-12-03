@@ -35,7 +35,7 @@ function FooterSection() {
                     </a>
                 </div>
             </div>
-            <hr />
+            <hr className='footer-long-line'/>
             <div className='top-footer-section2'>
                 <div>
                     <h2>Contact Info</h2>
