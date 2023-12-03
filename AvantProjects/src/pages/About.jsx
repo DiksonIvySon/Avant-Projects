@@ -3,14 +3,13 @@ import './About.css';
 
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
-import Banner from '../Components/Banner';
+import Banner2 from '../Components/Banner2';
 import PageHeading from '../Components/PageHeading';
 import CallToAction from '../Components/CallToAction';
 import FooterSection from '../Components/FooterSection';
 import TeamMember from '../Components/TeamMember';
 
 import hard_hat from '../images/hard_hat.png';
-import grayBackground from '../images/grayBackground.jpg';
 import working from '../images/working.jpeg';
 
 function About() {
@@ -18,11 +17,8 @@ function About() {
     <div>
         <Header1 />
         <Header2 />
-        <Banner />
+        <Banner2 />
         <div className='section'>
-            <div className='about-page-heading'>
-                <PageHeading />
-            </div>
             <p className='about-page-paragraph'>
                 With all of your commercial, industrial, and residential projects, you can rely on our team of 
                 skilled and knowledgeable workers. You are getting knowledgeable, skilled, and creative assistance 
