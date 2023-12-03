@@ -3,17 +3,13 @@ import './Contact.css';
 
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
-import Banner from '../Components/Banner';
+import Banner2 from '../Components/Banner2';
 import PageHeading from '../Components/PageHeading';
 import FooterSection from '../Components/FooterSection';
 
 import call from '../icons/call.png';
 import location from '../icons/location.png';
 import email from '../icons/email.png';
-
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
     const [name, setName] = useState("");
@@ -27,11 +23,8 @@ function Contact() {
     <div className='contact-page'>
         <Header1 />
         <Header2 />
-        <Banner />
+        <Banner2 />
         <div className='section'>
-            <div className='contact-page-heading'>
-                <PageHeading />
-            </div>
             <div className='contact-page-paragraph'>
                 <p>
                     We pride ourselves in our detailed quotations, superior service and highest quality of work. 
