@@ -3,10 +3,8 @@ import './Services.css';
 
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
-import Banner from '../Components/Banner';
-import PageHeading from '../Components/PageHeading';
+import Banner2 from '../Components/Banner2';
 import ServicesList from '../Components/ServicesList';
-import CallToAction from '../Components/CallToAction';
 import FooterSection from '../Components/FooterSection';
 
 import working from '../images/working.jpeg';
@@ -16,10 +14,7 @@ function Services() {
     <div className='services '>
         <Header1 />
         <Header2 />
-        <Banner />
-        <div className='services-heading'>
-            <PageHeading />
-        </div>
+        <Banner2 />
         <div className='section'>
             <div className='industrial-section'>
                 <div className='industrial-info'>
@@ -81,7 +76,7 @@ function Services() {
         </div>
         <div className='servicesBody'> 
         <ServicesList />    
-        
+
         <FooterSection />
         </div>
     </div>
