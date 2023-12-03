@@ -80,8 +80,8 @@ function Services() {
             </div>
         </div>
         <div className='servicesBody'> 
-        <ServicesList />
-        <CallToAction />
+        <ServicesList />    
+        
         <FooterSection />
         </div>
     </div>

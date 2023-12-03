@@ -1,5 +1,10 @@
 import React from 'react';
 import './FooterSection.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+
 import logo from '../images/logo.jpeg';
 import linkedIn from '../icons/linkedIn.png';
 import facebook from '../icons/facebook.png';
@@ -8,58 +13,62 @@ function FooterSection() {
   return (
     <div className='footerSection'>
         <div className='section'>
-            <div className='top-footer'>
-                <div className='footer-info'>
-                    <div className='footer-logo'>
-                        <img src={logo} alt="Avant Projects logo" />
-                    </div>
+            <div className='top-footer-section1'>
+                <div className='footer-logo'>
+                    <img src={logo} alt="Avant Projects logo" />
+                </div>
+                <div className='footer-company-verification'>
+                    <h2>Business Registration</h2>
+                    <p>Registration No: 1990/735267/13</p>
+                    <p>SARS Tax No: 632772649</p>
+                    <p>Level 1 (135% B-BBEE Procurement Recognition)</p>
+                </div>
+                <div>
+                    <h2>Avant Projects</h2>
+                    <p>
+                        We have built a solid reputation over the past 35 years 
+                        in Gauteng by providing excellent construction services 
+                        at reasonable costs.
+                    </p>
                     <a href="">
                         <button className='button1'>Get A Quote</button>
                     </a>
-                    <div className='web-dev'>
-                        <p>
-                            Website designed, developed and maintained by
-                        </p>
-                        <a href="">
-                            <h3>Dikson Manganye</h3>
-                        </a>
+                </div>
+            </div>
+            <hr />
+            <div className='top-footer-section2'>
+                <div>
+                    <h2>Contact Info</h2>
+                    <div>
+                        <p><span>Email:</span> avant@global.ac.za</p>
+                        <p><span>Phone:</span> 099 896 6789</p>
+                        <p><span>Office Hours: Monday/Friday <br /> 8:00AM -5:00PM</span></p>
                     </div>
                 </div>
                 <div className='quick-links'>
                     <h2>Quick Links</h2>
                     <div className='footer-links'>
                         <a href="">Home</a>
-                        <hr />
                         <a href="">About Us</a>
-                        <hr />
                         <a href="">Services</a>
-                        <hr />
                         <a href="">Projects</a>
-                        <hr />
                         <a href="">Contact Us</a>
-                        <hr />
                     </div>
                 </div>
                 <div className='useful-links'>
-                    <h2>Quick Links</h2>
+                    <h2>Useful Links</h2>
                     <div className='footer-links'>
                         <a href="">Privacy Policy</a>
-                        <hr />
                         <a href="">Terms and Conditions</a>
-                        <hr />
-                        <a href="">Company Verification</a>
-                        <hr />
                     </div>
-                </div>
-                <div className='socials'>
-                    <h2>Follow Us On</h2>
-                    <div className='footer-links'>
-                        <a href="">
-                            <img src={facebook} alt="Facebook link icon" />
-                        </a>
-                        <a href="">
-                            <img src={linkedIn} alt="linkedIn link icon" />
-                        </a>
+                    <div className='web-dev'>
+                        <p>
+                            Website designed, developed and maintained by 
+                            <br />
+                            <a href="">
+                                <h3>Dikson Manganye</h3>   
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
