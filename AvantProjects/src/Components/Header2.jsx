@@ -22,7 +22,7 @@ function Header2() {
   }
 
   return (
-    <div className='header2'>
+    <div className='header2 section' >
         <div className={logoState}>
             <img src={logo} alt="logo image" />
         </div>

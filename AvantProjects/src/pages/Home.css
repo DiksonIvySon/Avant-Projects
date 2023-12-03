@@ -1,6 +1,6 @@
 .slogan-container {
     position: absolute;
-    top: 200px;
+    top: 290px;
     left: 60px;
     animation: slide ease-in 0.5s;
 }
@@ -41,6 +41,6 @@
 }
 
 .home-heading {
-    margin-top: 180px;
+    margin-top: 75px;
 }
 
