@@ -11,6 +11,14 @@
   color: #591C68;
   border: 3px solid #591C68;
   background-color: transparent;
+  transition: all 0.2s;
+}
+
+.button1:hover {
+  background-color: gray;
+  color: white;
+  border: 3px solid gray;
+  cursor: pointer;
 }
 
 .button2 {

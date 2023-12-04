@@ -4,7 +4,6 @@ import './About.css';
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner2 from '../Components/Banner2';
-import PageHeading from '../Components/PageHeading';
 import CallToAction from '../Components/CallToAction';
 import FooterSection from '../Components/FooterSection';
 import TeamMember from '../Components/TeamMember';
