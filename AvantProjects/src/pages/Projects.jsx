@@ -4,12 +4,8 @@ import './Projects.css';
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner2 from '../Components/Banner2';
-import CallToAction from '../Components/CallToAction';
 import FooterSection from '../Components/FooterSection';
 
-
-import hard_hat from '../images/hard_hat.png';
-import working from '../images/working.jpeg';
 //NATURES GARDEN PICTURES
 import picture57 from '../images_projects/Picture57.jpg';
 import picture58 from '../images_projects/Picture58.jpg';

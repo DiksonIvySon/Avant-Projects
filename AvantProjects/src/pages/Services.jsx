@@ -8,6 +8,11 @@ import ServicesList from '../Components/ServicesList';
 import FooterSection from '../Components/FooterSection';
 
 import working from '../images/working.jpeg';
+import picture37 from '../images_projects/Picture37.jpg';
+import picture40 from '../images_projects/Picture40.jpg';
+import picture60 from '../images_projects/Picture60.jpg';
+import picture62 from '../images_projects/Picture62.jpg';
+import picture29 from '../images_projects/Picture29.jpg';
 
 function Services() {
   return (
@@ -30,10 +35,10 @@ function Services() {
                 </div>
                 <div className='industrial-images'>
                     <div className='industrial-image1'>
-                        <img src={working}  alt="industrial image" />
+                        <img src={picture37}  alt="industrial image" />
                     </div>
-                    <div className='industrial-image2'>
-                        <img src={working} alt="industrial image" />
+                    <div className='industrial-image2 section'>
+                        <img src={picture40} alt="industrial image" />
                     </div>
                 </div>
             </div>
@@ -58,14 +63,14 @@ function Services() {
                         </div>
                     </div>
                     <div className='service-page-service'>
-                        <img src={working} alt="Service Image" />
+                        <img src={picture29} alt="Service Image" />
                         <div className='service-type'>
                             <p>Infrastructural</p>
                             <p>Construction</p>
                         </div>
                     </div>
                     <div className='service-page-service'>
-                        <img src={working} alt="Service Image" />
+                        <img src={picture60} alt="Service Image" />
                         <div className='service-type'>
                             <p>Commercial</p>
                             <p>Construction</p>
