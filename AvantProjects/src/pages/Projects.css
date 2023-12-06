@@ -15,15 +15,29 @@ div.scroll-container img {
     object-fit: cover;
 }
 
+div.scroll-container::-webkit-scrollbar {
+    background-color: rgb(201, 200, 200);
+    height: 15px;
+}
+
+div.scroll-container::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 135, 135);
+    width: 5px;
+}
+
 .project-page-paragraph {
     display: flex;
     justify-content: center;
 }
 
 .project-page-paragraph p {
-    margin: 30px;
+    margin: 50px 10px;
     max-width: 700px;
     text-align: center;
+}
+
+.projects-page-project {
+    margin-bottom: 30px;
 }
 
 .projects-page-project p {
