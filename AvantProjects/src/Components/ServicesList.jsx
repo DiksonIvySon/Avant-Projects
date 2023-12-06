@@ -85,71 +85,71 @@ function ServicesList() {
                     <div className='listItem'>
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Asbestos</h2>
+                            <p>Roofs, vertical cladding - Renovations & safe disposal when replaced with new sheets.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Building</h2>
+                            <p> Foundations, Civil work, Steel structures, Concrete, Timber & steel cladded roofs</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Concrete</h2>
+                            <p>Bases, Floors, Piling, Plinths, Re-screeding, cracks & expansion joints repairs, mezzanine floors</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Demarcation</h2>
+                            <p> floors, walls, roads and more</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Electrical</h2>
+                            <p>Air Conditioning, Fence, Gate motors, Lights & Lightswitches general repairs and more</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Energy Saving:</h2>
+                            <p>Solar, Geysers, lights, heat pumps and generators.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Plumbing</h2>
+                            <p>New installations, repairs & replacements to existing including aqueduct systems. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Structural Steel</h2>
+                            <p>New erections, additions and reconditioning existing.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Tar Work</h2>
+                            <p>Repairs and new roads, pavements, sidewalks, driveways. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Waterproofing</h2>
+                            <p>Torch on (heat melt fusion), acrylic, silicones and many more.</p>
                         </div> 
                     </div>
                 </div>
@@ -166,70 +166,70 @@ function ServicesList() {
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                 </div>
@@ -246,70 +246,70 @@ function ServicesList() {
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                 </div>
@@ -325,71 +325,71 @@ function ServicesList() {
                     <div className='listItem'>
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Asbestos</h2>
+                            <p>Roofs, vertical cladding - Renovations & safe disposal when replaced with new sheets.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <h2>Building</h2>
+                            <p>Foundations, Civil work, Steel structures, Concrete, Timber & steel cladded roofs</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
                             <h2>Construction</h2>
-                            <p>residential, commercial, and infrastructure construction services</p>
+                            <p></p>
                         </div> 
                     </div>
                 </div>
