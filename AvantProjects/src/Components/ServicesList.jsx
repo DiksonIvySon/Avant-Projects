@@ -165,71 +165,71 @@ function ServicesList() {
                     <div className='listItem'>
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Ceilings</h2>
+                            <p>Concrete, Fixed or suspended ceilings – upgrade and new</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Ceilings</h2>
+                            <p>Deep cleaning interior and exterior surfaces</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Interior and exterior renovations</h2>
+                            <p> Roofs, walls,</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Paving</h2>
+                            <p>New installations and repair existing.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Painting</h2>
+                            <p>Interior, Exterior, Epoxy floor coatings all specialized applications. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Plastering</h2>
+                            <p>New/textured plaster Gamma zenith & plaster repairs</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Plumbing</h2>
+                            <p>New installations, repairs & replacements to existing including aqueduct systems. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Solar</h2>
+                            <p>Heating panels, battery powered installations. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Stairways & Cat ladders</h2>
+                            <p>New or recondition existing.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Tiling</h2>
+                            <p>Wall & Floor tiles new and repairs.</p>
                         </div> 
                     </div>
                 </div>
