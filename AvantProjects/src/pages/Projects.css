@@ -1,0 +1,44 @@
+
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    height: 280px;
+    display: flex;
+    gap: 30px;
+}
+  
+div.scroll-container img {
+    height: 250px;
+    width: 100%;
+    max-width: 475px;
+    object-fit: cover;
+}
+
+.project-page-paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+.project-page-paragraph p {
+    margin: 30px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.projects-page-project p {
+    margin-bottom: 5px;
+}
+
+.projects-page-callToAction {
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.projects-page-callToAction h1 {
+    margin-bottom: 20px;
+}
+
+.projects-page-callToAction button {
+    margin-top: 30px;
+}
