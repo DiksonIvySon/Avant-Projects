@@ -166,13 +166,13 @@ function ServicesList() {
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
                             <h2>Ceilings</h2>
-                            <p>Concrete, Fixed or suspended ceilings – upgrade and new</p>
+                            <p>Concrete, Fixed or suspended ceilings - upgrade and new</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
-                            <h2>Ceilings</h2>
+                            <h2>Cleaning</h2>
                             <p>Deep cleaning interior and exterior surfaces</p>
                         </div> 
                     </div>
@@ -245,71 +245,71 @@ function ServicesList() {
                     <div className='listItem'>
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Blast / fire rated</h2>
+                            <p>Blast and fire resistant structures - New and upgrades</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Fencing</h2>
+                            <p>Palisade, Brick, Diamond Mesh, Razor wire mesh, Precast and Clearview</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Flashings</h2>
+                            <p>Ridge, Rolltop and side wall etc.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Floors</h2>
+                            <p>Carpets, Concrete, wood, laminate tiles - new and renovations. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Gates & Gate motors</h2>
+                            <p>All applications</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Poly Carbon Sheets</h2>
+                            <p>New installations - highly recommended on roofs to incorporate energy saving. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Rainwater Goods</h2>
+                            <p>New and old systems</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Renovations</h2>
+                            <p>All structures, wallpaper and many more</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Roofs & Side cladding</h2>
+                            <p>Replacement, Reconditioning interior &exterior. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Tar Work</h2>
+                            <p>Repairs and new roads, pavements, sidewalks, driveways. </p>
                         </div> 
                     </div>
                 </div>
