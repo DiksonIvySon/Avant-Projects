@@ -325,71 +325,71 @@ function ServicesList() {
                     <div className='listItem'>
                         <h2 className='listItem-number'>1</h2> 
                         <div className='listItem-info'>
-                            <h2>Asbestos</h2>
-                            <p>Roofs, vertical cladding - Renovations & safe disposal when replaced with new sheets.</p>
+                            <h2>Ceilings</h2>
+                            <p>Concrete, Fixed or suspended ceilings – upgrade and new</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>2</h2> 
                         <div className='listItem-info'>
-                            <h2>Building</h2>
-                            <p>Foundations, Civil work, Steel structures, Concrete, Timber & steel cladded roofs</p>
+                            <h2>Cleaning</h2>
+                            <p>Deep cleaning interior and exterior surfaces</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>3</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Doors</h2>
+                            <p>Glass, Roller shutter, Steel, Wood and Roller shutter repairs and replacement</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>4</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Electrical</h2>
+                            <p>Air Conditioning, Fence, Gate motors, Lights & Lightswitches general repairs and more </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>5</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Energy Saving</h2>
+                            <p>Solar, Geysers, lights, heat pumps and generators.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>6</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Glass</h2>
+                            <p>New, old glass windowpanes / putty replacement, partitioning, doors & cleaning. </p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>7</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Pipes</h2>
+                            <p>Storm water, air & water installations.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>8</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Storage</h2>
+                            <p>Supply and install storage systems.</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number'>9</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Ventilators</h2>
+                            <p>Whirly birds, Turbines, stationery & extractor fans</p>
                         </div> 
                     </div>
                     <div className='listItem'>
                         <h2 className='listItem-number two-number-listItem'>10</h2> 
                         <div className='listItem-info'>
-                            <h2>Construction</h2>
-                            <p></p>
+                            <h2>Waterproofing</h2>
+                            <p>Torch on (heat melt fusion), acrylic, silicones and many more.</p>
                         </div> 
                     </div>
                 </div>
