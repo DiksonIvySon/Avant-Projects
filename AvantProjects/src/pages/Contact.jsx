@@ -4,14 +4,13 @@ import './Contact.css';
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner2 from '../Components/Banner2';
-import PageHeading from '../Components/PageHeading';
 import FooterSection from '../Components/FooterSection';
 
 import call from '../icons/call.png';
 import location from '../icons/location.png';
 import email from '../icons/email.png';
 
-function Contact() {
+function Contact(props) {
     const [name, setName] = useState("");
 
     const handleSubmit = (event) => {
@@ -23,7 +22,7 @@ function Contact() {
     <div className='contact-page'>
         <Header1 />
         <Header2 />
-        <Banner2 />
+        <Banner2 heading="Contact"/>
         <div className='section'>
             <div className='contact-page-paragraph'>
                 <p>

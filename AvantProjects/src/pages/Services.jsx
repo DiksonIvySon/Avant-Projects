@@ -19,7 +19,7 @@ function Services() {
     <div className='services '>
         <Header1 />
         <Header2 />
-        <Banner2 />
+        <Banner2 heading="Services"/>
         <div className='section'>
             <div className='industrial-section'>
                 <div className='industrial-info'>

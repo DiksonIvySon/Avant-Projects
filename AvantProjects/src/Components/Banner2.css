@@ -35,3 +35,38 @@
     border: 0;
     background-image: linear-gradient(45deg, rgb(156, 156, 156), rgb(163, 161, 161),rgb(197, 195, 195), rgb(165, 164, 164));
 }
+
+/* page heading styling*/
+.pageHeading-container {
+    display: flex;
+    justify-content: center;
+    animation: slide 1s ease-in;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.pageHeading {
+    position: relative;
+}
+
+.pageHeading h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    /*color: #E4E5E7;*/
+}
+
+.pageHeading p {
+    position: absolute;
+    bottom: 0px;
+    font-weight: 600;
+    color: #591C68;
+}

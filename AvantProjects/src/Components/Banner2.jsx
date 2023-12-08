@@ -2,16 +2,19 @@ import React from 'react';
 import './Banner2.css'; 
 import { Link } from "react-router-dom";
 
-import PageHeading from './PageHeading';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
 
-function Banner2() {
+function Banner2({heading}) {
   return (
     <div className='banner2'>
         <div className='banner2-heading-container'>
-            <PageHeading />
+        <div className='pageHeading-container'>
+          <div className='pageHeading'>
+                <h1>{heading}</h1>
+                <p>Pty Ltd Gauteng</p>
+            </div>
+          </div>
         </div>
         <div className='banner2-link section'>
             <Link to="/">Home</Link>

@@ -48,13 +48,13 @@ import picture43 from '../images_projects/Picture43.jpg';
 import picture44 from '../images_projects/Picture44.jpg';
 
 
-function Projects() {
+function Projects(props) {
 
   return (
     <div className='projects-page'>
         <Header1 />
         <Header2 />
-        <Banner2 />
+        <Banner2 heading="Projects"/>
         <div className='projects-page-projects-container section'>
             <div className='project-page-paragraph'>
                 <p >

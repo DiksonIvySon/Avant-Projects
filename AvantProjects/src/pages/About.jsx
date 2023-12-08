@@ -11,12 +11,12 @@ import TeamMember from '../Components/TeamMember';
 import hard_hat from '../images/hard_hat.png';
 import working from '../images/working.jpeg';
 
-function About() {
+function About(props) {
   return (
     <div>
         <Header1 />
         <Header2 />
-        <Banner2 />
+        <Banner2 heading="About"/>
         <div className='section'>
             <p className='about-page-paragraph'>
                 With all of your commercial, industrial, and residential projects, you can rely on our team of 
