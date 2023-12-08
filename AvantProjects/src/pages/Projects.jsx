@@ -63,6 +63,7 @@ function Projects(props) {
                     with the ultimate objective to provide the cause.
                 </p>
             </div>
+            <div className='projects-page-project-con'>
             <div className='projects-page-project'>
                 <h1>Nature Garden</h1>
                 <p>Glass enclosure for divided office spaces</p>
@@ -152,6 +153,7 @@ function Projects(props) {
                     <img src={picture43} alt="Project Picture" />
                     <img src={picture44} alt="Project Picture" />
                 </div>
+            </div>
             </div>
         </div>
         <div className='projects-page-callToAction section'>
