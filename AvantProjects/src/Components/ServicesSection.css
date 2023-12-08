@@ -61,3 +61,27 @@
     color: black;
 }
 
+@media (max-width:1024px) {
+    .services-section > div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px;
+        padding: 0px 0px;
+    }
+
+    .services-sectors > div {
+        margin: 10px;
+        padding: 20px;
+        background-color: #D9D9D9;
+    
+    }
+}
+
+@media (max-width:768px) {
+    .services-sectors {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+

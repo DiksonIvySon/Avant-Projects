@@ -34,9 +34,9 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className='home-heading'>
+      {/*<div className='home-heading'>
         <PageHeading />
-      </div>
+  </div>*/}
       <div className='homeBody'>
         <AboutSection />
         <ServicesSection />

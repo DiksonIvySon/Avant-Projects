@@ -86,3 +86,19 @@
     color: #591C68;
     
 }
+
+@media (max-width:1024px) {
+    .projectsSection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .project {
+        width: 100%;
+        height: 250px;
+        margin: 0px 0px 20px 0px;
+        position: relative;
+    }
+}
+

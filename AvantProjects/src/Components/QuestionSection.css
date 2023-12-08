@@ -64,3 +64,13 @@
     background-color: white;
     overflow: hidden;
 }
+
+@media (max-width:768px) {
+    .faq-image {
+        display: none;
+    }
+
+    .questionSection .questions {
+        text-align: center;
+    }
+}
