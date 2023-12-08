@@ -43,7 +43,7 @@
 /* adding an animation to the contact page*/
 
 .quick-email-contact {
-    margin-left: 40px;
+    margin: 0px 0px 0px 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -75,4 +75,15 @@
 .form-button input {
     margin: 30px;
     max-width: 200px;
+}
+
+
+@media (max-width:768px) {
+    .contact-page-contacts {
+        flex-direction: column;
+    }
+
+    .quick-email-contact {
+        margin: 20px 0px;
+    }
 }
