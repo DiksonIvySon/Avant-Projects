@@ -11,6 +11,7 @@ div.scroll-container img {
     height: 350px;
     width: 100%;
     max-width: 470px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
