@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './Contact.css';
+import emailjs from '@emailjs/browser';
+
 
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
@@ -11,12 +13,19 @@ import location from '../icons/location.png';
 import email from '../icons/email.png';
 
 function Contact(props) {
-    const [name, setName] = useState("");
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        alert(`The name you entered was: ${name}`);
-    }
+    const form = useRef()
+      
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_0hn75wk', 'template_d3ls77c', form.current, 'CSLrYE2i9yeJKRTpW')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
 
   return (
     <div className='contact-page'>
@@ -66,15 +75,15 @@ function Contact(props) {
                         <h1>Get in Touch</h1>
                         <p>Please provide a brief message</p>
                     </div>
-                    <form onSubmit={handleSubmit}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className='form-inputs'>
                             <label>Name:
                                 <br />
                                 <input 
                                 type="text" 
-                                value={name}
+                                name='user_name'
                                 placeholder='Enter your name or company name here'
-                                onChange={(e) => setName(e.target.value)}
+                                required
                                 />
                             </label>
                             <br />
@@ -83,8 +92,18 @@ function Contact(props) {
                                 <input 
                                 type="text" 
                                 placeholder='Enter your email or company email here'
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
+                                name='user_email'
+                                required
+                                />
+                            </label>
+                            <br />
+                            <label>Contact Number:
+                                <br />
+                                <input 
+                                type="text" 
+                                placeholder='Enter your contact number here'
+                                name='user_number'
+                                required
                                 />
                             </label>
                             <br />
@@ -92,16 +111,16 @@ function Contact(props) {
                                 <br />
                                 <input 
                                 type="text" 
-                                value={name}
+                                name='user_subject'
                                 placeholder='Enter the type of service you require here'
-                                onChange={(e) => setName(e.target.value)}
+                                required
                                 />
                             </label>
                         </div>
                         <br /> 
                         <div className='textarea'>
                             <label htmlFor="">Message</label>
-                            <textarea name="" id="" cols="20" rows="10" placeholder='Please tell us more about the type of service you require here'></textarea> 
+                            <textarea name="message" cols="20" rows="10" placeholder='Please tell us more about the type of service you require here'></textarea> 
                         </div>
                         <div className='form-button'>
                             <input type="submit" className='button2'/>
