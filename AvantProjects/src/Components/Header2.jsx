@@ -29,10 +29,10 @@ function Header2() {
         <div id="main-nav" className={verticalMenu} >
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="about">About</Link></li>
-                <li><Link to="services">Services</Link></li>
-                <li><Link to="projects">Projects</Link></li>
-                <li><Link to="contact">Contact</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
           </ul>
             <div className='get_a_quote-button'>
                 <a href="">
