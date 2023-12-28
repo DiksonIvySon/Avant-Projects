@@ -58,9 +58,13 @@ function FooterSection() {
                 </div>
                 <div className='useful-links'>
                     <h2>Useful Links</h2>
-                    <div className='footer-links'>
-                        <a href="">Privacy Policy</a>
-                        <a href="">Terms and Conditions</a>
+                    <div className='footer-links footer-links-images'>
+                        <a href="">
+                            <img src={facebook} alt="facebook logo" />
+                        </a>
+                        <a href="">
+                            <img src={linkedIn} alt="LinkedIn logo" />
+                        </a>
                     </div>
                     <div className='web-dev'>
                         <p>

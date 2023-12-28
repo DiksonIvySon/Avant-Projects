@@ -79,6 +79,20 @@
     flex-direction: column;
 }
 
+.footer-links-images {
+    flex-direction: row;
+}
+
+.footer-links-images img {
+    width: 50px;
+    margin-right: 10px;
+    filter: brightness(0.3);
+    transition: all 0.4s;
+}
+
+.footer-links-images img:hover {
+    filter: brightness(1);
+}
 
 .footer-links a {
     color: black;
