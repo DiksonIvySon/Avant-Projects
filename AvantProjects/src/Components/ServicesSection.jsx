@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './ServicesSection.css';
 import commercial from '../icons/commercial.png';
 import industrial from '../icons/industrial.png';
@@ -21,9 +22,9 @@ function ServicesSection() {
                     company culture that values respect for one another, we must first construct a platform that will 
                     allow us to reach and serve everyone in South Africa.
                 </p>
-                <a href="">
+                <Link to="/services">
                     <button className='button1 '>View Services in Detail</button>
-                </a>
+                </Link>
             </div>
             <div className='services-sectors'>
                 <div>

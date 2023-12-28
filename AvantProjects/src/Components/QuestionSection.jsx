@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import './QuestionSection.css'
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import './QuestionSection.css';
 import tra_person from '../images/tra_person.png';
 import logo from '../images/logo.jpeg';
 
@@ -76,9 +77,9 @@ function QuestionSection() {
                 </div>
                 <div className='contact'>
                     <p>Have a question to ask, or need clarity?</p>
-                    <a href="">
+                    <Link to="/contact">
                         <button className='button1'>Contact Us</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className='faq-image'>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import './Home.css';
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
@@ -29,9 +30,9 @@ function Home() {
             Our guiding principles are based on the goal of continuously exceeding our clients' expectations 
             via dependable response times, evident dedication, and genuine interest in the construction industry.
           </p>
-          <a href="">
+          <Link to="/contact">
             <button className='contact-button button2'>Contact Us</button>
-          </a>
+          </Link>
         </div>
       </div>
       {/*<div className='home-heading'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import grayBackground from '../images/grayBackground.jpg';
 import working from '../images/working.jpeg'
 import './AboutSection.css';
@@ -30,9 +31,9 @@ function AboutSection() {
                     your ideas into a reality. Your satisfaction is our number one priority. 
                     We strongly believe in building relationships, which last.
                 </p>
-                <a href="">
+                <Link to="/about">
                     <button className='button2'>Read More About Us</button>
-                </a>
+                </Link>
             </div>
         </div>
         <div className='about-stats'>
