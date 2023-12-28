@@ -31,7 +31,7 @@ function TestimonialsSection() {
             <div className='testimonials-container'>
                 <div className='testimonial'>
                     <div className='testimonial-header'>
-                        <div className='company-logo'>
+                        <div className='testimonial-company-logo'>
                             <img src={abe} alt="Company Logo" />
                         </div>
                         <div className='testimonial-writer'>
@@ -52,7 +52,7 @@ function TestimonialsSection() {
                 </div>
                 <div className='testimonial'>
                     <div className='testimonial-header'>
-                        <div className='company-logo'>
+                        <div className='testimonial-company-logo'>
                             <img src={abe} alt="Company Logo" />
                         </div>
                         <div className='testimonial-writer'>
@@ -73,7 +73,7 @@ function TestimonialsSection() {
                 </div>
                 <div className='testimonial'>
                     <div className='testimonial-header'>
-                        <div className='company-logo'>
+                        <div className='testimonial-company-logo'>
                             <img src={pronto} alt="Company Logo" />
                         </div>
                         <div className='testimonial-writer'>
