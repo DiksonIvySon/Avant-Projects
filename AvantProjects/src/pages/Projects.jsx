@@ -54,7 +54,7 @@ function Projects(props) {
     <div className='projects-page'>
         <Header1 />
         <Header2 />
-        <Banner2 heading="Projects"/>
+        <Banner2 heading="Projects" pageTitleProp="Projects"/>
         <div className='projects-page-projects-container section'>
             <div className='project-page-paragraph'>
                 <p >

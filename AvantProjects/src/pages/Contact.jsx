@@ -31,7 +31,7 @@ function Contact(props) {
     <div className='contact-page'>
         <Header1 />
         <Header2 />
-        <Banner2 heading="Contact"/>
+        <Banner2 heading="Contact" pageTitleProp="Contact"/> 
         <div className='section'>
             <div className='contact-page-paragraph'>
                 <p>

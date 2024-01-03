@@ -16,7 +16,7 @@ function About(props) {
     <div>
         <Header1 />
         <Header2 />
-        <Banner2 heading="About"/>
+        <Banner2 heading="About" pageTitleProp="About"/> 
         <div className='section'>
             <p className='about-page-paragraph'>
                 With all of your commercial, industrial, and residential projects, you can rely on our team of 
