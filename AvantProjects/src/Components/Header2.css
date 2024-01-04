@@ -1,5 +1,6 @@
 .header2 {
     margin: 40px 0px;
+    padding-inline: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,10 +41,6 @@
     align-items: center;
     list-style: none;
     gap: 30px;
-}
-
-#main-nav ul li {
-    width: 60px;
 }
 
 /* Style the links inside the main navigation div */
@@ -148,7 +145,11 @@
 
     #main-nav.hide {
         transition: 1s ease-in-out;
-        transform: translateY(-400px);
+        transform: translateY(-500px);
+    }
+
+    .hide {
+        background-image: #591C68;
     }
     
     #main-nav {
@@ -157,6 +158,7 @@
         display: flex;
         flex-direction: column-reverse;
         margin: 50px auto;
+        transform: translateY(100px);
     }
     #main-nav ul {
         flex-direction: column;

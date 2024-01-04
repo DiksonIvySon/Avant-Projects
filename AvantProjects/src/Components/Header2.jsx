@@ -11,7 +11,7 @@ function Header2() {
   const HandleToggleHam = () => {
     if (toggleHam_icon === "close") {
         setToggleHam_icon("open");
-        setVerticalMenu("")
+        setVerticalMenu("showVertical")
         setLogoState("company-logo-hide")
     }
     else {
@@ -22,7 +22,7 @@ function Header2() {
   }
 
   return (
-    <div className='header2 section' >
+    <div className='header2' >
         <div className={logoState}>
             <img src={logo} alt="logo image" />
         </div>
@@ -33,7 +33,7 @@ function Header2() {
                 <li><Link to="/services">Services</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
-          </ul>
+            </ul>
             <div className='get_a_quote-button'>
                 <a href="">
                     <Link to="/contact">

@@ -21,7 +21,7 @@ function Home() {
     <div className='firstPage'>
       <Header1 />
       <Header2 />
-      <Banner />
+      <Banner/>
       <div className='slogan-container'>
         <div className='sloganBox'>
           <h1 className='slogan1'>Building The Future</h1>

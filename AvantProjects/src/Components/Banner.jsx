@@ -4,7 +4,7 @@ import './Banner.css';
 
 function Banner() {
   return (
-    <div className='banner'>
+    <div className='banner section'>
         <img src={banner} alt="banner image" />
     </div>
   )
