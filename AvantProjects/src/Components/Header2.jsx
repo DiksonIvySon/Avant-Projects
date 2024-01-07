@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import './Header2.css';
-import logo from '../images/logo.jpeg' 
+import logo from '../images/logo.png' 
 
 function Header2() {
   const [toggleHam_icon, setToggleHam_icon] = useState("close");

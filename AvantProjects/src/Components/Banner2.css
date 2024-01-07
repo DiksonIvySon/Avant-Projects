@@ -40,10 +40,10 @@
 .pageHeading-container {
     display: flex;
     justify-content: center;
-    animation: slide 1s ease-in;
+    animation: slideb2 1s ease-in;
 }
 
-@keyframes slide {
+@keyframes slideb2 {
     0% {
         opacity: 0;
         transform: translateX(-200px);

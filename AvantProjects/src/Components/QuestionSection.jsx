@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import './QuestionSection.css';
 import tra_person from '../images/tra_person.png';
-import logo from '../images/logo.jpeg';
+import logo from '../images/logo.png';
 
 function QuestionSection() {
     const [panel1, setPanel1] = useState("panel");

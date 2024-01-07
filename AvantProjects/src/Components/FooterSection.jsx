@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
-import logo from '../images/logo.jpeg';
+import logo from '../images/logo.png';
 import linkedIn from '../icons/linkedIn.png';
 import facebook from '../icons/facebook.png';
 

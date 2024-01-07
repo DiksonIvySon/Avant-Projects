@@ -1,14 +1,23 @@
-.slogan-container {
+.first-page-slogan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 90%;
     position: absolute;
-    top: 290px;
-    left: 60px;
-    animation: slide ease-in 0.5s;
+    top: 220px;
+    left: 50%;
+    translate: -50%;
 }
 
-@keyframes slide {
+.slogan-container {
+    animation: slogan_con 2s ease-in 1.5s 1 alternate;
+}
+
+@keyframes slogan_con {
     0% {
         opacity: 0;
-        transform: translateX(-200px);
+        transform: translateX(100px);
     }
     100% {
         opacity: 1;
@@ -16,11 +25,47 @@
     }
 }
 
-.sloganBox {
-    width: 250px;
+.slogan-intro-container {
+    border-radius: 20px;
+    animation: slide_b1 ease-in 1.5s;
+}
+
+@keyframes slide_b1 {
+    0% {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.slogan-intro-container .slogan-container-image {
+    width: 100%;
+    height: 300px;
+}
+
+.slogan-intro-container .slogan-container-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.slogan-intro {
+    max-width: 580px;
     padding: 20px 20px 40px 20px;
     background-image: linear-gradient(45deg, rgb(156, 156, 156), rgb(163, 161, 161),rgb(197, 195, 195), rgb(165, 164, 164));
     position: relative;
+}
+
+.slogan1, .slogan2 {
+    font-size: 50px;
 }
 
 .slogan1 {
