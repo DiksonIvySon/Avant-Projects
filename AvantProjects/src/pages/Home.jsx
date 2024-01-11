@@ -2,9 +2,6 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 import './Home.css';
 
-import working from '../images/working.jpeg'
-import logo from '../images/logo.png';
-
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Banner from '../Components/Banner';
@@ -24,12 +21,8 @@ function Home() {
     <>
     <div className='firstPage'>
       <Header1 />
-     {/* <Header2 /> */} 
+      <Header2 />
       <Banner/>
-      
-      {/*<div className='home-heading'>
-        <PageHeading />
-  </div>*/}
       <div className='homeBody'>
         <AboutSection />
         <ServicesSection />

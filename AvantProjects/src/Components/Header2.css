@@ -142,10 +142,9 @@
   }
 
 /* display the links vertically on small screens (below 900px) and hide all ver*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
     .header2 {
-        max-height: 500px;
         height: 400px;
         z-index: 1000;
     }
@@ -204,7 +203,6 @@
     .header2 {
         padding-inline: 30px;
         margin: 20px 0px;
-        max-height: 70px;
     }
 
     #nav-icon {
