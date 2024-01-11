@@ -145,9 +145,8 @@
 @media screen and (max-width: 1000px) {
 
     .header2 {
-        height: 400px;
         z-index: 1000;
-    }
+    }  
 
     #main-nav.hide {
         transition: 1s ease-in-out;
@@ -175,8 +174,6 @@
         position: absolute;
         top: 230px;
     }
-
-    
 
     .company-logo-hide {
         display: none;
@@ -215,7 +212,12 @@
         padding-inline : 20px;
     }
 
+    #main-nav {
+        background-image : #591C68;
+    }
+
     #nav-icon {
         right: 20px;
     }
 }
+
