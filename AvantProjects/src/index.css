@@ -50,3 +50,15 @@
 .section {
   margin-inline: 60px;
 }
+
+@media (max-width: 800px) {
+  .section {
+      margin-inline: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section {
+      margin-inline: 20px;
+  }
+}

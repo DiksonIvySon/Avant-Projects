@@ -1,5 +1,6 @@
 .banner {
     height: 70vh;
+    position: relative;
 }
 
 .banner img {
@@ -7,4 +8,122 @@
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
+}
+
+.first-page-slogan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: content-box;
+    width: 95%;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    translate: -50%;
+}
+
+.slogan-intro-container {
+    animation: slide_b1 ease-in 1.5s;
+}
+
+@keyframes slide_b1 {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.slogan-container {
+  animation: slogan_con 2s ease-in;
+  animation-delay: 1s;
+}
+
+@keyframes slogan_con {
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.slogan-intro-container .slogan-container-image {
+    width: 100%;
+    max-height: 310px;
+}
+
+.slogan-intro-container .slogan-container-image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+
+.slogan-intro {
+    max-width: 580px;
+    padding: 20px 20px 40px 20px;
+    background-image: linear-gradient(45deg, rgb(156, 156, 156), rgb(163, 161, 161),rgb(197, 195, 195), rgb(165, 164, 164));
+    position: relative;
+}
+
+.slogan1, .slogan2 {
+    font-size: 50px;
+}
+
+.slogan1 {
+    color: #591C68;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.slogan2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    position: absolute;
+    right: 50px;
+    bottom: -20px;
+}
+
+.home-heading {
+    margin-top: 75px;
+}
+
+@media (max-width: 800px) {
+    .first-page-slogan {
+        flex-direction: column;
+        top: 70px;
+    }
+
+    .slogan-intro-container {
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .first-page-slogan {
+        top: 50px;
+    }
+
+    .first-page-slogan .slogan-container {
+        max-width: 90%;
+    }
+
+    .slogan1, .slogan2 {
+      font-size: 35px;
+      text-align: center;
+    }
 }
