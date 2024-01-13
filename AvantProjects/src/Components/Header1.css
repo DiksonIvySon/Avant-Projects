@@ -3,18 +3,47 @@
     max-width: 100vw;
     height: 40px;
     margin: 0;
+    padding-inline: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: linear-gradient(45deg, rgb(156, 156, 156), rgb(163, 161, 161),rgb(197, 195, 195), rgb(165, 164, 164));
-}
-
-.operating-times {
-    margin-left: 60px;
-    background-color: #591C68;
-    width: 290px;
-    height: 40px;
-    border-radius: 0px 70px 0px 0px;
 }
 
 .operating-times p {
     color: white;
-    padding: 10px   ;
+}
+
+.header1-socials {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.header1-socials hr {
+    width: 1px;
+    border: 0;
+    height: 30px;
+    background-color: black;
+}
+
+.header1-socials a {
+    color: black;
+    font-size: 30px;
+}
+
+.header1-socials a:hover {
+    color: #591C68;
+}
+  
+@media (max-width: 800px) {
+    .header1 {
+        padding-inline: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header1 {
+        padding-inline: 20px;
+    }
 }
