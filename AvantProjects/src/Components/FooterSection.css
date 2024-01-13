@@ -83,17 +83,6 @@
     flex-direction: row;
 }
 
-.footer-links-images img {
-    width: 50px;
-    margin-right: 10px;
-    filter: brightness(0.3);
-    transition: all 0.4s;
-}
-
-.footer-links-images img:hover {
-    filter: brightness(1);
-}
-
 .footer-links a {
     color: black;
     text-decoration: none;
@@ -103,6 +92,7 @@
 .footer-links a:hover {
     color: #591C68;
     text-decoration: none;
+    transition: all 0.4s;
 }
 
 .footer-links hr {

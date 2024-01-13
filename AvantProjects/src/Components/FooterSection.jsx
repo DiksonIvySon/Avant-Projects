@@ -2,13 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './FooterSection.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
+
 
 
 import logo from '../images/logo.png';
-import linkedIn from '../icons/linkedIn.png';
-import facebook from '../icons/facebook.png';
+
 
 function FooterSection() {
   return (
@@ -60,12 +59,14 @@ function FooterSection() {
                     <h2>Useful Links</h2>
                     <div className='footer-links footer-links-images'>
                         <a href="">
-                            <img src={facebook} alt="facebook logo" />
+                            <FaFacebookSquare size='50px'/>
                         </a>
                         <a href="">
-                            <img src={linkedIn} alt="LinkedIn logo" />
+                            <FaLinkedin size='50px'/>
                         </a>
                     </div>
+                    
+
                     <div className='web-dev'>
                         <p>
                             Website designed, developed and maintained by 
